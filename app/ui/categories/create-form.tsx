@@ -17,7 +17,7 @@ export default function Form() {
   // console.log({ state });
 
   return (
-    <h1>hello</h1>
+    <h1>hello h</h1>
     // <form action={dispatch}>
     //   <div className="rounded-md bg-gray-50 p-4 md:p-6">
     //     {/* Category Name */}
