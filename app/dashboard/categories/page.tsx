@@ -1,5 +1,5 @@
 import { lusitana } from '@/app/ui/fonts';
-// import { CreateCategory } from '@/app/ui/categories/buttons';
+import { CreateCategory } from '@/app/ui/categories/buttons';
 import Search from '@/app/ui/search';
 import { Suspense } from 'react';
 import { Metadata } from 'next';
@@ -32,7 +32,7 @@ export default async function Page({
       </div>
       <div className="mt-4 flex items-center justify-between gap-2 md:mt-8">
         <Search placeholder="Ангилал хайх" />
-        {/* <CreateCategory /> */}
+        <CreateCategory />
       </div>
       <Suspense
         key={query + currentPage}
