@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import SideNav from '../ui/dashboard/sidenav';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
